@@ -1,4 +1,9 @@
-x = "123567890"
-for i in x:
-	print i,ord(i),hex(ord(i)),oct(ord(i))
+print "\t\t\t\tkode ASCII"
+print "decimal\tcharcter\thex\toctal\tbinary"
+
+for i in range(128):
+	
+	print i,"\t",chr(i),"\t\t",hex(i),"\t",oct(i),"\t",bin(i)
+	
+
 	
